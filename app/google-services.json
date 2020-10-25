@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1001152180238",
+    "firebase_url": "https://qmaze-4b7e4.firebaseio.com",
+    "project_id": "qmaze-4b7e4",
+    "storage_bucket": "qmaze-4b7e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001152180238:android:74791b8c8653818fe8cc5f",
+        "android_client_info": {
+          "package_name": "com.dc.msu.maze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001152180238-ro0mthj3gcob04br47ujm1kt9so4dif3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5R06V6uHHvEZT_QPxh64bIVs9o6zOfs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001152180238-ro0mthj3gcob04br47ujm1kt9so4dif3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

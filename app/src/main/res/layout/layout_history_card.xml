@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardElevation="1dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <com.dc.msu.maze.Helpers.Views.CircleTextView
+            android:id="@+id/card_history_per_label"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="100%"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/card_history_per_label"
+            android:layout_marginStart="15dp">
+
+            <TextView
+                android:id="@+id/card_history_ans_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Right Answers : 0"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/card_history_que_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Questions : 0"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/card_history_date_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date : Sun 12, 2020"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

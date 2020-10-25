@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">QMaze</string>
+
+    <string name="label_first_name">First Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="label_date_of_birth">Date of Birth</string>
+
+    <string name="label_login">Login</string>
+    <string name="label_sign_up">Sign Up</string>
+
+    <string name="label_new_user">New User?</string>
+    <string name="label_register_here">Register here</string>
+
+    <string name="label_already_registered">Already Registered?</string>
+    <string name="label_login_here">Login here</string>
+
+    <string name="msg_no_account_register">No account found with this email, please create new account.</string>
+    <string name="msg_welcome_to_login1">Welcome to Groncle</string>
+    <string name="msg_forgot_your_password">Forgot your password?</string>
+    <string name="msg_incorrect_email_password">Incorrect Email or Password</string>
+
+    <string name="msg_enter_name">Enter your Name</string>
+    <string name="msg_enter_family_name">Enter your Family Name</string>
+    <string name="msg_name_length_must_be">Name must be at least of 3 characters.</string>
+    <string name="msg_enter_dob">Enter your Birth date</string>
+
+    <string name="msg_enter_email_id">Enter your EmailId</string>
+    <string name="msg_enter_correct_email_id">Enter your correct EmailId</string>
+    <string name="msg_enter_password">Enter your Password</string>
+    <string name="msg_password_length_must_be">Password must be at least of 6 characters.</string>
+
+    <string name="msg_registered_successfully">Registered Successfully</string>
+    <string name="label_family_name">Family Name</string>
+    <string name="current_email">Current Email</string>
+    <string name="email">Email</string>
+    <string name="new_email">New Email</string>
+    <string name="email_reset_text">Please enter your email so we can send you reset email link.</string>
+
+</resources>
